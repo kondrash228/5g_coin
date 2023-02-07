@@ -1,2 +1,4 @@
 ### cripto currency
-lublyu ksuhu lebedevu
+lublyu ksuhu lebedevu(by artem rodkin)
+kirill smushko
+aleksey nerikov
