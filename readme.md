@@ -1,9 +1,8 @@
 # cripto currency
 ### developers
-lublyu ksuhu lebedevu(by artem rodkin),
-kirill smushko,
-aleksey nerikov
-
+Alexander Panfilov (backend)
+Egor Kondrashov (backend, analitics)
+Nick Snimschikov
 ## how to
 to run, firstly install requirements.txt
 
