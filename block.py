@@ -17,7 +17,7 @@ class Blockchain(object):
 
     def add_new_block(self, prev_hash: int, proof: int) -> dict:
         block = {
-            'index': len(self.chain) - 1, 
+            'index': len(self.chain) + 1, 
             'timestamp': time(),
             'transactions': self.current_transactions,
             'proof': proof,
