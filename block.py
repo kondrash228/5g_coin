@@ -1,6 +1,8 @@
 import hashlib
 import json
 
+import requests
+
 from textwrap import dedent
 from time import time
 from uuid import uuid4
@@ -56,7 +58,7 @@ class Blockchain(object):
 
         for node in neighbours:
 
-            response = request.get(f'http://{node}//chain')
+            response = requests.get(f'http://{node}//chain')
 
             if response.status_code == 200:
                 length = response.json()['lenght']
@@ -232,6 +234,6 @@ def consensus():
 
 
 if __name__ == "__main__":
-    app.run(port=5002)
+    app.run(port=5001)
 
 
